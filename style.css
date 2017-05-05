@@ -205,7 +205,7 @@ ul {
 
 /* end of footer */
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width : 375px) and (max-width : 480px) {
 
   .main-container {
     width: 100%;
