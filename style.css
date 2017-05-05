@@ -23,6 +23,43 @@ h1, h3, a, p, li, label, .footer {
   font-family: Arial;
 }
 
+.main-container {
+  margin: 0 auto;
+  max-width: 1200px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+  width: 100%;
+  min-height:100%;
+  position:relative;
+}
+
+.head-section {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.4em;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 30px 30px 80px 30px;
+}
+
+p, ul {
+  font-size: 1.2em;
+  line-height: 1.2em;
+}
+
 /* Nav */
 
 nav {
@@ -61,6 +98,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a:visited {
+  color: #7B68EE;
+}
+
 a.link-color {
   color: #778899;
 }
@@ -74,43 +115,6 @@ a.link-color.active {
 }
 
 /* end of Link styling */
-
-.main-container {
-  margin: 0 auto;
-  max-width: 1200px;
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
-  width: 100%;
-  min-height:100%;
-  position:relative;
-}
-
-.head-section {
-  padding: 30px;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-h3 {
-  font-size: 1.4em;
-  display: inline-block;
-}
-
-img {
-  width: 100%;
-}
-
-.container {
-  padding: 30px 30px 80px 30px;
-}
-
-p, ul {
-  font-size: 1.2em;
-  line-height: 1.2em;
-}
 
 /* home section */
 
@@ -183,6 +187,8 @@ ul {
 
 /* end of contact */
 
+/* footer section */
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -197,7 +203,19 @@ ul {
   padding-top: 13px;
 }
 
+/* end of footer */
+
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  .main-container {
+    width: 100%;
+    min-height:100%;
+    position:relative;
+  }
+
+  .container {
+    padding: 10px 10px 40px 10px;
+  }
 
   .head-section {
     text-align: center;
@@ -272,35 +290,7 @@ ul {
     color: #7B68EE;
   }
 
-  .head-section h1 a:visited {
-    color: #778899;
-  }
-
   /* end of Link styling */
-
-  .main-container {
-    width: 100%;
-    min-height:100%;
-    position:relative;
-  }
-
-  .container {
-    padding: 10px 10px 40px 10px;
-  }
-
-  .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    background: lightgray;
-    text-align: center;
-  }
-
-  .footer p {
-    font-size: 0.8em;
-    padding-top: 13px;
-  }
 
   /* home section */
 
@@ -386,5 +376,23 @@ ul {
   }
 
   /* end of contact */​
+
+  /* footer section */
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: lightgray;
+    text-align: center;
+  }
+
+  .footer p {
+    font-size: 0.8em;
+    padding-top: 13px;
+  }
+
+  /* end of footer */
 
 }
