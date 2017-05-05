@@ -6,23 +6,34 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <h3>Feel free to submit a comment about my progress!</h3>
-  <form name="comments" action="success.html" method="post">
-    <div>
-      <label>Your Name:</label>
-      <input type="text" name="username">
-    </div>
-    <br />
-    <div>
-      <label>Comments:</label>
-      <textarea name="comment">Enter your comment here...</textarea>
-    </div>
-    <button type="submit">Submit</button>
-  </form>
+  <div class="head-section">
+    <h1><a href="index.html">Abraham Kwak</a></h1>
+    <h3>Product Designer and Software Engineer</h3>
+    <nav>
+      <ul id="nav">
+        <li><a class="link-color" href="index.html">Home</a></li>
+        <li><a class="link-color" href="about.html">About</a></li>
+        <li><a class="link-color active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <section class="contact">
+      <h3>Feel free to submit a comment about my progress!</h3>
+      <form name="comments" action="success.html" method="post">
+        <div class="input-section">
+          <label>Your Name:</label>
+          <input class="input-fields" type="text" name="username">
+        </div>
+        <br />
+        <div class="formfield textarea-section">
+          <label>Comments:</label>
+          <textarea class="textarea-fields" name="comment">Enter your comment here...</textarea>
+        </div>
+        <button id="submit_button" type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  <div class="footer">&copy KwakDesign 2017</div>
 </body>
 </html>

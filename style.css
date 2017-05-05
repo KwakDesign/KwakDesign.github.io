@@ -1,0 +1,241 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 3rem;
+  margin: 0;
+  background-color: #F8F8FF;
+}
+
+h1, h3, a, p, li, label, .footer {
+  font-family: Arial;
+}
+
+.head-section h1 {
+  /*font-size: 1.5em;*/
+  margin-bottom: 0;
+}
+
+.head-section h3 {
+  /*font-size: 1.1em;*/
+  margin-top: 0;
+}
+
+p {
+  margin-top: 5px;
+  line-height: 1.2em;
+}
+
+/* Nav */
+
+#nav {
+  list-style: none;
+  padding: 0;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav li:nth-child(2) {
+  padding: 0 30px;
+}
+
+#nav li a {
+  display: inline-block;
+}
+
+/* end of Nav */
+
+/* Link styling */
+
+a  {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.link-color {
+  color: #778899;
+}
+
+a.link-color.active {
+  color: #7B68EE;
+}
+
+/* end of Link styling */
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+
+  body {
+    margin: 0;
+    background-color: #F8F8FF;
+  }
+
+  .head-section {
+    padding: 0 10px;
+  }
+
+  h1, h3, a, p, li, label, .footer {
+    font-family: Arial;
+  }
+
+  .head-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+
+  .head-section h3 {
+    font-size: 1.1em;
+    margin-top: 0;
+  }
+
+  p {
+    margin-top: 5px;
+    line-height: 1.2em;
+  }
+
+  /* Nav */
+
+  #nav {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+  }
+
+  #nav li {
+    display: inline;
+  }
+
+  #nav li:nth-child(2) {
+    padding: 0 30px;
+  }
+
+  #nav li a {
+    display: inline-block;
+  }
+
+  /* end of Nav */
+
+  /* Link styling */
+
+  a  {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a.link-color {
+    color: #778899;
+  }
+
+  a.link-color.active {
+    color: #7B68EE;
+  }
+
+  /* end of Link styling */
+
+  .head-section h1 a:visited {
+    color: #778899;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  section.home, section.about, section.contact {
+    padding: 10px;
+  }
+
+  /* home section */
+
+  section.home p:first-child {
+    margin-top: 0;
+  }
+
+  section.home h3 {
+    margin-bottom: 0;
+  }
+
+  /* about section */
+
+  .img-circular{
+   width: 150px;
+   height: 150px;
+   background-image: url('me.jpg');
+   background-size: cover;
+   display: block;
+   border-radius: 100px;
+   -webkit-border-radius: 100px;
+   -moz-border-radius: 100px;
+   margin: 0 auto;
+  }
+
+  section.about h3 {
+    margin-bottom: 0;
+  }
+
+  /* Form */
+
+  .formfield * {
+    vertical-align: middle;
+  }
+
+  label {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .input-section, .textarea-section, .input-fields, .textarea-fields {
+    width: 99%;
+  }
+
+  .input-fields {
+    height: 20px;
+  }
+
+  .textarea-fields {
+    height: 50px;
+  }
+
+  #submit_button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  /* end of Form */​
+
+
+
+}
